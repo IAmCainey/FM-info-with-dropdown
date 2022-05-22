@@ -1,5 +1,6 @@
 // Imports
 import TopNav from "./components/topNav";
+import Clients from "./components/clients";
 
 //images
 import HeroDesktop from "./assets/images/image-hero-desktop.png";
@@ -22,9 +23,11 @@ function App() {
           </p>
 
           <button className="btn">Learn more</button>
+
+          <Clients />
         </div>
         <div>
-          <img className="heroImg" src={HeroDesktop} alt="" />
+          <img className="heroImg" src={HeroDesktop} alt="make remote work" />
         </div>
       </section>
     </div>

@@ -1,10 +1,10 @@
 .topnav {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
   max-height: 50px;
-  width: 80%;
+  width: 1440px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 20px auto;
@@ -22,5 +22,54 @@
 .topnav .links .link {
   list-style: none;
   margin-right: 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: dimgray;
+}
+
+.topnav .links .link:hover {
+  color: #141414;
+  cursor: pointer;
+}
+
+.topnav .links .dropdown::after {
+  padding-left: 5px;
+  content: url("../assets/images/icon-arrow-down.svg");
+}
+
+.topnav .logo {
+  width: 83.5px;
+  height: 26.58px;
+}
+
+.topnav .pushRight {
+  right: 0;
+  position: absolute;
+}
+
+.topnav .pushRight .login {
+  color: dimgray;
+  background: none;
+  border: none;
+  text-transform: capitalize;
+  margin-right: 40px;
+}
+
+.topnav .pushRight .login:hover {
+  color: #141414;
+}
+
+.topnav .pushRight .register {
+  background: none;
+  border-radius: 8px;
+  padding: 13px 21px;
+  border: solid 1px dimgray;
+  text-transform: capitalize;
+  color: dimgray;
+}
+
+.topnav .pushRight .register:hover {
+  border: solid 1px #141414;
+  color: #141414;
 }
 /*# sourceMappingURL=topnav.module.css.map */

@@ -3,10 +3,10 @@
 
 // Top Nav
 .topnav {
-  display: flex;
   position: relative;
+  display: flex;
   max-height: 50px;
-  width: 80%;
+  width: 1440px;
   box-sizing: border-box;
   margin: 20px auto;
   justify-items: center;
@@ -19,9 +19,57 @@
     .link {
       list-style: none;
       margin-right: 30px;
+      text-decoration: none;
+      text-transform: capitalize;
+      color: $gray;
+
+      &:hover {
+        color: $dark;
+        cursor: pointer;
+      }
+    }
+
+    .dropdown {
+      &::after {
+        padding-left: 5px;
+        content: url("../assets/images/icon-arrow-down.svg");
+      }
     }
   }
 
-  .btn {
+  .logo {
+    width: 83.5px;
+    height: 26.58px;
+  }
+
+  .pushRight {
+    right: 0;
+    position: absolute;
+
+    .login {
+      color: $gray;
+      background: none;
+      border: none;
+      text-transform: capitalize;
+      margin-right: 40px;
+
+      &:hover {
+        color: $dark;
+      }
+    }
+
+    .register {
+      background: none;
+      border-radius: 8px;
+      padding: 13px 21px;
+      border: solid 1px $gray;
+      text-transform: capitalize;
+      color: $gray;
+
+      &:hover {
+        border: solid 1px $dark;
+        color: $dark;
+      }
+    }
   }
 }

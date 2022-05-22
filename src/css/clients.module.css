@@ -1,0 +1,9 @@
+.clients {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 108px;
+  gap: 50px;
+  max-height: 35.9px;
+}
+/*# sourceMappingURL=clients.module.css.map */

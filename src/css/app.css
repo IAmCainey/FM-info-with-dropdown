@@ -5,13 +5,24 @@ html {
   background-color: #fafafa;
 }
 
+.App {
+  max-height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 1440px;
+  margin: auto;
+}
+
 p {
   font-size: 18px;
   color: dimgray;
 }
 
 h1 {
-  font-size: 68px;
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 700;
+  letter-spacing: -1.11px;
 }
 
 .hero {
@@ -22,11 +33,10 @@ h1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin: auto;
-  width: 1124px;
-  height: 80vh;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  margin: 130px auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -35,19 +45,28 @@ h1 {
 }
 
 .hero div {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero p {
+  margin-top: 48px;
+  word-wrap: break-word;
+  max-width: 350px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
 }
 
 .hero .heroImg {
-  max-height: 80vh;
   -webkit-box-pack: right;
       -ms-flex-pack: right;
           justify-content: right;
-  max-height: auto;
+  width: 480px;
   justify-items: right;
 }
 
@@ -58,6 +77,7 @@ h1 {
   border-radius: 10px;
   font-size: 22px;
   border: solid 1px #141414;
+  margin-top: 51px;
 }
 
 .hero .btn:hover {
