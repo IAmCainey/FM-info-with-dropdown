@@ -1,0 +1,26 @@
+.topnav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  max-height: 50px;
+  width: 80%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 20px auto;
+  justify-items: center;
+}
+
+.topnav .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0 40px;
+}
+
+.topnav .links .link {
+  list-style: none;
+  margin-right: 30px;
+}
+/*# sourceMappingURL=topnav.module.css.map */

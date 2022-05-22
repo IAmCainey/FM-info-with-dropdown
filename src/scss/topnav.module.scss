@@ -1,0 +1,27 @@
+// Imports
+@import "_var.scss";
+
+// Top Nav
+.topnav {
+  display: flex;
+  position: relative;
+  max-height: 50px;
+  width: 80%;
+  box-sizing: border-box;
+  margin: 20px auto;
+  justify-items: center;
+
+  .links {
+    display: flex;
+    margin: 0;
+    padding: 0 40px;
+
+    .link {
+      list-style: none;
+      margin-right: 30px;
+    }
+  }
+
+  .btn {
+  }
+}

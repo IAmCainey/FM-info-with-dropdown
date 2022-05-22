@@ -1,0 +1,57 @@
+// Imports
+@import "_var.scss";
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: $light;
+}
+
+p {
+  font-size: 18px;
+  color: $gray;
+}
+
+h1 {
+  font-size: 68px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 1124px;
+  height: 80vh;
+  box-sizing: border-box;
+  align-items: center;
+  flex-wrap: wrap;
+
+  div {
+    flex-basis: 50%;
+    flex-grow: 1;
+  }
+
+  .heroImg {
+    max-height: 80vh;
+    justify-content: right;
+    max-height: auto;
+    justify-items: right;
+  }
+
+  .btn {
+    color: $light;
+    background-color: $dark;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 22px;
+    border: solid 1px $dark;
+
+    &:hover {
+      cursor: pointer;
+      background-color: $light;
+      border: solid $dark 1px;
+      color: $dark;
+    }
+  }
+}
