@@ -3,7 +3,24 @@
   display: -ms-flexbox;
   display: flex;
   margin-top: 108px;
-  gap: 50px;
-  max-height: 35.9px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.data {
+  height: 20px;
+}
+
+.audio {
+  height: 35.9px;
+}
+
+.maker {
+  height: 24px;
+}
+
+.meet {
+  height: 20px;
 }
 /*# sourceMappingURL=clients.module.css.map */

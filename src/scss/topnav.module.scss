@@ -55,6 +55,7 @@
 
       &:hover {
         color: $dark;
+        cursor: pointer;
       }
     }
 
@@ -69,7 +70,14 @@
       &:hover {
         border: solid 1px $dark;
         color: $dark;
+        cursor: pointer;
       }
     }
+  }
+}
+
+@include devices(mobile) {
+  .topnav {
+    display: none;
   }
 }

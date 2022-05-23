@@ -10,10 +10,10 @@ import Meet from "../assets/images/client-meet.svg";
 export default function Logos() {
   return (
     <section className={style.clients}>
-      <img src={Databitz} alt="" />
-      <img src={Audiophile} alt="" />
-      <img src={Maker} alt="" />
-      <img src={Meet} alt="" />
+      <img className={style.data} src={Databitz} alt="" />
+      <img className={style.audio} src={Audiophile} alt="" />
+      <img className={style.meet} src={Meet} alt="" />
+      <img className={style.maker} src={Maker} alt="" />
     </section>
   );
 }

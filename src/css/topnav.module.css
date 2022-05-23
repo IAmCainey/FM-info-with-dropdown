@@ -57,6 +57,7 @@
 
 .topnav .pushRight .login:hover {
   color: #141414;
+  cursor: pointer;
 }
 
 .topnav .pushRight .register {
@@ -71,5 +72,6 @@
 .topnav .pushRight .register:hover {
   border: solid 1px #141414;
   color: #141414;
+  cursor: pointer;
 }
 /*# sourceMappingURL=topnav.module.css.map */
