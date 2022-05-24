@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
 .topnav {
   position: relative;
   display: -webkit-box;
@@ -6,7 +7,7 @@
   width: 1440px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  margin: 20px auto;
+  margin: 34px auto;
   justify-items: center;
 }
 
@@ -15,7 +16,7 @@
   display: -ms-flexbox;
   display: flex;
   margin: 0;
-  padding: 0 40px;
+  padding: 0 40px 0 62.24px;
 }
 
 .topnav .links .link {

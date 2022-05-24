@@ -6,6 +6,7 @@ html {
   margin: 0;
   padding: 0;
   background-color: $light;
+  font-family: "Epilogue", sans-serif;
 }
 
 .App {
@@ -30,11 +31,11 @@ h1 {
 .hero {
   display: flex;
   flex-direction: row;
-  margin: 130px auto;
+  margin: 130px 0 0 0;
   height: fit-content;
-  align-items: center;
   flex-wrap: wrap;
   position: relative;
+  padding-left: 106px;
 
   div {
     flex: 1;
@@ -52,6 +53,8 @@ h1 {
 
   .heroImg {
     width: 480px;
+    display: block;
+    margin: auto;
   }
 
   .btn {

@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
 body,
 html {
   margin: 0;
   padding: 0;
   background-color: #fafafa;
+  font-family: "Epilogue", sans-serif;
 }
 
 .App {
@@ -33,16 +35,14 @@ h1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin: 130px auto;
+  margin: 130px 0 0 0;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   position: relative;
+  padding-left: 106px;
 }
 
 .hero div {
@@ -65,6 +65,8 @@ h1 {
 
 .hero .heroImg {
   width: 480px;
+  display: block;
+  margin: auto;
 }
 
 .hero .btn {
