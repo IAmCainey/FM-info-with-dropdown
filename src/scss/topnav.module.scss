@@ -1,11 +1,11 @@
 // Imports
 @import "_var.scss";
+@import "mixins.scss";
 
 // Top Nav
 .topnav {
   position: relative;
   display: flex;
-  max-height: 50px;
   width: 1440px;
   box-sizing: border-box;
   margin: 20px auto;
@@ -74,10 +74,7 @@
       }
     }
   }
-}
-
-@include devices(mobile) {
-  .topnav {
+  @include devices(mobile) {
     display: none;
   }
 }
