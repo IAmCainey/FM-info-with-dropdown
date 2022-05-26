@@ -19,6 +19,7 @@
     .link {
       list-style: none;
       margin-right: 30px;
+      padding-bottom: 20px;
       text-decoration: none;
       text-transform: capitalize;
       color: $gray;
@@ -30,6 +31,7 @@
     }
 
     .dropdown {
+      z-index: 999;
       .dropmenu {
         display: none;
         position: absolute;

@@ -22,6 +22,7 @@
 .topnav .links .link {
   list-style: none;
   margin-right: 30px;
+  padding-bottom: 20px;
   text-decoration: none;
   text-transform: capitalize;
   color: dimgray;
@@ -30,6 +31,10 @@
 .topnav .links .link:hover {
   color: #141414;
   cursor: pointer;
+}
+
+.topnav .links .dropdown {
+  z-index: 999;
 }
 
 .topnav .links .dropdown .dropmenu {
