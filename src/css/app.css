@@ -11,7 +11,7 @@ html {
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 1440px;
+  max-width: 1440px;
   margin: auto;
 }
 
@@ -84,5 +84,35 @@ h1 {
   background-color: #fafafa;
   border: solid #141414 1px;
   color: #141414;
+}
+
+@media (max-width: 767px) {
+  .hero {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .heroImg {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    padding: 0;
+    margin: 0;
+  }
+  h1 {
+    font-size: 36px;
+    line-height: 42px;
+    padding-top: 47.75px;
+    letter-spacing: -0.5;
+  }
+  p {
+    max-width: 343px;
+    font-size: 16px;
+    margin: auto;
+  }
 }
 /*# sourceMappingURL=app.css.map */

@@ -4,11 +4,15 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 1440px;
+  max-width: 1440px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 34px auto;
   justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px;
 }
 
 .topnav .links {
@@ -17,6 +21,9 @@
   display: flex;
   margin: 0;
   padding: 0 40px 0 62.24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .topnav .links .link {
@@ -118,7 +125,7 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 375px) {
+@media (max-width: 767px) {
   .topnav {
     display: none;
   }

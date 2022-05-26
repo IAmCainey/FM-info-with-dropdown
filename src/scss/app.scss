@@ -12,7 +12,7 @@ html {
 .App {
   position: relative;
   box-sizing: border-box;
-  width: 1440px;
+  max-width: 1440px;
   margin: auto;
 }
 
@@ -72,5 +72,33 @@ h1 {
       border: solid $dark 1px;
       color: $dark;
     }
+  }
+}
+
+@media (max-width: 767px) {
+  .hero {
+    flex-direction: column-reverse;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .heroImg {
+    max-width: fit-content;
+    padding: 0;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 36px;
+    line-height: 42px;
+    padding-top: 47.75px;
+    letter-spacing: -0.5;
+  }
+
+  p {
+    max-width: 343px;
+    font-size: 16px;
+    margin: auto;
   }
 }
