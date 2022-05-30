@@ -8,21 +8,36 @@
       -ms-flex-align: center;
           align-items: center;
   gap: 50px;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .data {
-  height: 20px;
+  max-height: 20px;
 }
 
 .audio {
-  height: 35.9px;
+  max-height: 35.9px;
 }
 
 .maker {
-  height: 24px;
+  max-height: 24px;
 }
 
 .meet {
-  height: 20px;
+  max-height: 20px;
+}
+
+@media (max-width: 767px) {
+  .clients {
+    gap: 0;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=clients.module.css.map */

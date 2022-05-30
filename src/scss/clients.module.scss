@@ -5,20 +5,31 @@
   margin-top: 108px;
   align-items: center;
   gap: 50px;
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 
 .data {
-  height: 20px;
+  max-height: 20px;
 }
 
 .audio {
-  height: 35.9px;
+  max-height: 35.9px;
 }
 
 .maker {
-  height: 24px;
+  max-height: 24px;
 }
 
 .meet {
-  height: 20px;
+  max-height: 20px;
+}
+
+@media (max-width: 767px) {
+  .clients {
+    gap: 0;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
 }
