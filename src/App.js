@@ -1,6 +1,7 @@
 // Imports
 import TopNav from "./components/topNav";
 import Clients from "./components/clients";
+import Footer from "./components/footer";
 
 //images
 import HeroDesktop from "./assets/images/image-hero-desktop.png";
@@ -28,6 +29,7 @@ function App() {
           </div>
         </section>
       </div>
+      <Footer />
     </>
   );
 }

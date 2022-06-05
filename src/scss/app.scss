@@ -2,8 +2,7 @@
 @import "_var.scss";
 
 * {
-  padding: 0;
-  margin: 0;
+  box-sizing: border-box;
 }
 
 body,
@@ -105,5 +104,24 @@ h1 {
     max-width: 343px;
     font-size: 16px;
     margin: auto;
+  }
+}
+
+footer {
+  padding: 20px 10px;
+  text-align: center;
+  width: 100%;
+
+  p {
+    font-size: 11px;
+  }
+
+  a {
+    font-size: 11px;
+    color: $dark;
+
+    &:hover {
+      color: $gray;
+    }
   }
 }
