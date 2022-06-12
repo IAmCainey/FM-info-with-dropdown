@@ -41,6 +41,9 @@ h1 {
   position: relative;
   padding-left: 106px;
 
+  @media (max-width: 767px) {
+  }
+
   div {
     flex: 1;
     align-items: center;

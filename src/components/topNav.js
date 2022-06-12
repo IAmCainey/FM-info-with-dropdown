@@ -1,9 +1,6 @@
 // Styling
 import style from "../css/topnav.module.css";
 
-// Components
-import Mobile from "../components/mobileMenu";
-
 // Images
 import Logo from "../assets/images/logo.svg";
 import Todo from "../assets/images/icon-todo.svg";
@@ -59,8 +56,6 @@ export default function TopNav() {
           <button className={style.register}>register</button>
         </div>
       </nav>
-
-      <Mobile />
     </div>
   );
 }

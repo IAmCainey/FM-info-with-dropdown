@@ -1,5 +1,6 @@
 // Imports
 import TopNav from "./components/topNav";
+import Mobile from "./components/mobileMenu";
 import Clients from "./components/clients";
 import Footer from "./components/footer";
 
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
       <TopNav />
+      <Mobile />
       <div className="App">
         <section className="hero">
           <div>
