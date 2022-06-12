@@ -1,0 +1,9 @@
+@import "_var.scss";
+@import "mixins.scss";
+
+.menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

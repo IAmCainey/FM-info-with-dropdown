@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+@media (max-width: 767px) {
+  .clients {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
 .clients {
   display: -webkit-box;
   display: -ms-flexbox;

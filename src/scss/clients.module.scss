@@ -1,5 +1,13 @@
 @import "_var.scss";
 
+@media (max-width: 767px) {
+  .clients {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
 .clients {
   display: flex;
   margin-top: 108px;
